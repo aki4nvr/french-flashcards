@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { View, StyleSheet, FlatList, TextInput, Alert } from 'react-native';
+import { View, StyleSheet, FlatList, TextInput, Alert, Text, TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { Card } from '../components/Card';
 import { Button } from '../components/Button';
@@ -109,8 +109,6 @@ export const WordListScreen: React.FC = () => {
     </View>
   );
 };
-
-import { Text, TouchableOpacity } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {

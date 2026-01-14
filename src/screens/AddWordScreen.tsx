@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, StyleSheet, Alert, ScrollView, KeyboardAvoidingView, Platform } from 'react-native';
+import { View, StyleSheet, Alert, ScrollView, KeyboardAvoidingView, Platform, Text, TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { v4 as uuidv4 } from 'uuid';
 import { Button } from '../components/Button';
@@ -111,8 +111,6 @@ export const AddWordScreen: React.FC = () => {
     </KeyboardAvoidingView>
   );
 };
-
-import { TouchableOpacity, Text } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {

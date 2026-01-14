@@ -1,10 +1,10 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { HomeScreen } from './screens/HomeScreen';
-import { AddWordScreen } from './screens/AddWordScreen';
-import { WordListScreen } from './screens/WordListScreen';
-import { PracticeScreen } from './screens/PracticeScreen';
+import { HomeScreen } from './src/screens/HomeScreen';
+import { AddWordScreen } from './src/screens/AddWordScreen';
+import { WordListScreen } from './src/screens/WordListScreen';
+import { PracticeScreen } from './src/screens/PracticeScreen';
 import { StatusBar } from 'react-native';
 
 export type RootStackParamList = {

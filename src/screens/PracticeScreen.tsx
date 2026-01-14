@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useCallback } from 'react';
-import { View, StyleSheet, Text, TextInput, Alert, ScrollView } from 'react-native';
+import { View, StyleSheet, Text, TextInput, Alert, ScrollView, TouchableOpacity } from 'react-native';
 import { useNavigation, useRoute, RouteProp } from '@react-navigation/native';
 import { Card } from '../components/Card';
 import { Button } from '../components/Button';
@@ -215,8 +215,6 @@ export const PracticeScreen: React.FC = () => {
     </ScrollView>
   );
 };
-
-import { TouchableOpacity } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
